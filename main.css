@@ -1,0 +1,96 @@
+html,body,h1,div,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('pic.jpg');
+}
+#header{
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 35px;
+}
+#commentSpace{
+    background-color: rgb(250, 219, 79);
+    width: 100%;
+    height: 700px;
+}
+
+.backgroundImage{   
+    background-image: url('pic.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+}
+#insertComment{
+    background-color:rgb(219, 218, 218);
+    width: 100%;
+    height: 60px;
+    
+}
+#straight{
+    display: flex;
+}
+#comment{
+    width: 80%;
+    height: 20px;
+}
+#comment1{
+    width: 1000px;
+}
+#firstComment{
+    background-color:rgb(255, 249, 249);
+    width: 100%;
+    height: 80px;
+    border: black dashed;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.right1{
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.right{
+    cursor: pointer;
+}
+#secondImage{
+    background-image: url('music.png');
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-self: flex-start;
+}
+#editDelete{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#spacing{
+    display: flex;
+}
+.submit{
+    height: 26.4px;
+}
+#displayName{
+    margin-right: 10px;
+}
+.helper{
+    display: flex;
+    flex-direction: row;
+}
+.noDisplay{
+    display: none;
+}
